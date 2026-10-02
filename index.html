@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a0a0a">
-  <title>NSTM — Cancionero</title>
+  <title>NSTM — Acceso</title>
   <style>
     :root {
       color-scheme: dark;
@@ -109,61 +109,6 @@
       font-size: 13px;
     }
 
-    #songbook[hidden], #login[hidden] { display: none; }
-
-    .songbook-header {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 22px;
-    }
-
-    .songbook-header h2 { margin: 0; }
-
-    .songbook-header span {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .empty {
-      padding: 28px 0 8px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    .song-list {
-      display: grid;
-      gap: 10px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .song-list a {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      color: var(--text);
-      text-decoration: none;
-      background: #0d0d0d;
-    }
-
-    .song-list a:hover {
-      border-color: var(--accent);
-      transform: translateY(-1px);
-    }
-
-    .tag {
-      color: var(--accent);
-      font-size: 12px;
-      text-transform: uppercase;
-    }
-
     @media (max-width: 520px) {
       main { padding: 36px 0; }
       .password-row { grid-template-columns: 1fr; }
@@ -178,7 +123,7 @@
       <p>Cancionero de ensayo y vivo</p>
     </header>
 
-    <section id="login" class="panel" aria-labelledby="login-title">
+    <section class="panel" aria-labelledby="login-title">
       <h2 id="login-title">Acceso</h2>
       <form id="login-form">
         <label for="password">Ingresá la clave del cancionero</label>
@@ -197,80 +142,20 @@
         <p id="error" class="error" role="alert" aria-live="polite"></p>
       </form>
     </section>
-
-    <section id="songbook" class="panel" hidden>
-      <div class="songbook-header">
-        <h2>Canciones</h2>
-        <span id="song-count">0 temas</span>
-      </div>
-
-      <ul class="song-list" id="song-list">
-        <li>
-          <a href="01-weight-in-the-air.txt">
-            <span>Weight in the Air</span>
-            <span class="tag">Propia</span>
-          </a>
-        </li>
-        <li>
-          <a href="02-la-colors.txt">
-            <span>L.A Colors</span>
-            <span class="tag">Propia</span>
-          </a>
-        </li>
-        <li>
-          <a href="03-never-lies.txt">
-            <span>Never Lies</span>
-            <span class="tag">Propia</span>
-          </a>
-        </li>
-        <li>
-          <a href="04-road-to-nowhere.txt">
-            <span>Road to Nowhere</span>
-            <span class="tag">Propia</span>
-          </a>
-        </li>
-        <li>
-          <a href="05-sun-falls-down.txt">
-            <span>Sun Falls Down</span>
-            <span class="tag">Propia</span>
-          </a>
-        </li>
-        <li>
-          <a href="cover-pearl-jam-black.txt">
-            <span>Black — Pearl Jam</span>
-            <span class="tag">Cover</span>
-          </a>
-        </li>
-      </ul>
-
-      <div id="empty-state" class="empty">
-        Todavía no hay canciones publicadas. Los temas aparecerán acá después
-        de revisar y aprobar cada TXT.
-      </div>
-    </section>
   </main>
 
   <script>
     const ACCESS_CODE = "1256";
-    const login = document.querySelector("#login");
-    const songbook = document.querySelector("#songbook");
+    const SONGBOOK_PATH = "setlist-seven-7f3a.html";
     const form = document.querySelector("#login-form");
     const password = document.querySelector("#password");
     const error = document.querySelector("#error");
-    const songs = document.querySelectorAll("#song-list > li");
-    const count = document.querySelector("#song-count");
-    const emptyState = document.querySelector("#empty-state");
-
-    count.textContent = songs.length === 1 ? "1 tema" : `${songs.length} temas`;
-    emptyState.hidden = songs.length > 0;
 
     form.addEventListener("submit", (event) => {
       event.preventDefault();
 
       if (password.value === ACCESS_CODE) {
-        login.hidden = true;
-        songbook.hidden = false;
-        error.textContent = "";
+        window.location.replace(SONGBOOK_PATH);
         return;
       }
 
