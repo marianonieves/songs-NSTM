@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>NSTM — Cancionero</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090909;
+      --panel: #141414;
+      --line: #303030;
+      --text: #f5f1e8;
+      --muted: #aaa59c;
+      --accent: #d7c39a;
+      --danger: #ff8a80;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background:
+        radial-gradient(circle at top, #23201b 0, var(--bg) 38%),
+        var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      width: min(720px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    .brand {
+      margin-bottom: 32px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: clamp(28px, 7vw, 52px);
+      line-height: .95;
+    }
+
+    .brand p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      letter-spacing: .08em;
+    }
+
+    .panel {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(20, 20, 20, .94);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, .4);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .password-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+    }
+
+    input, button {
+      min-height: 48px;
+      border-radius: 10px;
+      font: inherit;
+    }
+
+    input {
+      width: 100%;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      outline: none;
+      background: #080808;
+      color: var(--text);
+    }
+
+    input:focus { border-color: var(--accent); }
+
+    button {
+      padding: 0 20px;
+      border: 0;
+      background: var(--accent);
+      color: #15120d;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover { filter: brightness(1.08); }
+
+    .error {
+      min-height: 20px;
+      margin: 12px 0 0;
+      color: var(--danger);
+      font-size: 13px;
+    }
+
+    #songbook[hidden], #login[hidden] { display: none; }
+
+    .songbook-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+
+    .songbook-header h2 { margin: 0; }
+
+    .songbook-header span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .empty {
+      padding: 28px 0 8px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .song-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .song-list a {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--text);
+      text-decoration: none;
+      background: #0d0d0d;
+    }
+
+    .song-list a:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .tag {
+      color: var(--accent);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 520px) {
+      main { padding: 36px 0; }
+      .password-row { grid-template-columns: 1fr; }
+      button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="brand">
+      <h1>NSTM</h1>
+      <p>Cancionero de ensayo y vivo</p>
+    </header>
+
+    <section id="login" class="panel" aria-labelledby="login-title">
+      <h2 id="login-title">Acceso</h2>
+      <form id="login-form">
+        <label for="password">Ingresá la clave del cancionero</label>
+        <div class="password-row">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            inputmode="numeric"
+            autocomplete="off"
+            autofocus
+            required
+          >
+          <button type="submit">Entrar</button>
+        </div>
+        <p id="error" class="error" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="songbook" class="panel" hidden>
+      <div class="songbook-header">
+        <h2>Canciones</h2>
+        <span id="song-count">0 temas</span>
+      </div>
+
+      <ul class="song-list" id="song-list">
+        <!--
+        Ejemplo para agregar una canción propia:
+
+        <li>
+          <a href="set-me-free.txt">
+            <span>Set Me Free</span>
+            <span class="tag">Propia</span>
+          </a>
+        </li>
+
+        Ejemplo para agregar un cover:
+
+        <li>
+          <a href="cover-pearl-jam-better-man.txt">
+            <span>Better Man — Pearl Jam</span>
+            <span class="tag">Cover</span>
+          </a>
+        </li>
+        -->
+      </ul>
+
+      <div id="empty-state" class="empty">
+        Todavía no hay canciones publicadas. Los temas aparecerán acá después
+        de revisar y aprobar cada TXT.
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const ACCESS_CODE = "1256";
+    const login = document.querySelector("#login");
+    const songbook = document.querySelector("#songbook");
+    const form = document.querySelector("#login-form");
+    const password = document.querySelector("#password");
+    const error = document.querySelector("#error");
+    const songs = document.querySelectorAll("#song-list > li");
+    const count = document.querySelector("#song-count");
+    const emptyState = document.querySelector("#empty-state");
+
+    count.textContent = songs.length === 1 ? "1 tema" : `${songs.length} temas`;
+    emptyState.hidden = songs.length > 0;
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      if (password.value === ACCESS_CODE) {
+        login.hidden = true;
+        songbook.hidden = false;
+        error.textContent = "";
+        return;
+      }
+
+      error.textContent = "Clave incorrecta.";
+      password.select();
+    });
+  </script>
+</body>
+</html>
