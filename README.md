@@ -4,8 +4,10 @@ Repositorio de canciones para ensayo y vivo de NSTM.
 
 ## Organización
 
-- `covers/`: versiones de otros artistas.
-- `propias/`: canciones originales de NSTM.
+Todas las canciones se guardan en la raíz del repositorio, dentro de una única lista.
+
+- Temas propios: `set-me-free.txt`
+- Covers: `cover-pearl-jam-better-man.txt`
 
 ## Formato de cada canción
 
@@ -19,9 +21,13 @@ Cada tema se guarda como un archivo `.txt` compacto y fácil de leer mientras se
 - repeticiones indicadas como `x2`, `x4`, etc.;
 - notas breves de entrada, corte o dinámica.
 
-## Nombres de archivo
+## Flujo de trabajo
 
-Usar minúsculas y guiones, por ejemplo:
+1. Preparar el TXT completo.
+2. Revisarlo antes de subirlo.
+3. Publicarlo solamente después de su aprobación.
+4. Agregarlo a la lista del cancionero web.
 
-- `covers/pearl-jam-better-man.txt`
-- `propias/set-me-free.txt`
+## GitHub Pages
+
+La página principal solicita una clave sencilla antes de mostrar el cancionero. Es una barrera visual para evitar el acceso casual, no un sistema de seguridad real: el repositorio y sus archivos son públicos.
