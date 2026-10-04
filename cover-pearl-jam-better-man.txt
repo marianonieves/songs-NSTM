@@ -5,7 +5,7 @@ Tono:  A
 ║ F6/A | G/B  | F6/A | G/B  ║
 
 
-[VERSE] 
+[VERSE]  - - - - -
 D/F#                         E7/G#
      Waiting, watching the clock
                               D/F#
@@ -16,7 +16,9 @@ Tell him, take no more she practices her speech
 As he opens the door, she rolls over
     F6/A                  G/B
 Pretends to sleep as he looks her over
-[Estribillo]
+
+
+[ESTRIBO] - - - - -
 D               A             G5        D
   She lies and says she's in love with him
               A         G5
@@ -29,8 +31,10 @@ Can't find a better man
 Can't find a better man
  D4    D      A      A4  A  A4  A  G5
 Can't find a better man               ohh
+
 ( D/F#  E/G# )
-[Segunda Parte]
+
+[VERSO 2] - - - - -
 D/F#                E7/G#
     Talking to herself there's no one else who needs
       D/F#
@@ -44,7 +48,8 @@ And waiting for
 The world to come along, swears she knew it now she
   G/B
 Swears he's gone
-[Estribillo]
+
+[ESTRIBO] - - - - -
 D               A             G5        D
   She lies and says she's in love with him
               A      G5
@@ -65,6 +70,7 @@ Can't find a better man
 Can't find a better man
  D4    D      A         A4  A  A4  A  G5
 Can't find a better man
+
 D               A  G5
   She loved him
 D                 A         G5
