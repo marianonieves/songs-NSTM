@@ -1,6 +1,11 @@
 Tono:  A
-[Intro] D/F#  E/G#  D/F#  E/G#
 
+[INTRO] 
+║ D/F# | E/G# | D/F# | E/G# ║ x4
+║ F6/A | G/B  | F6/A | G/B  ║
+
+
+[VERSE] 
 D/F#                         E7/G#
      Waiting, watching the clock
                               D/F#
