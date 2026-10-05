@@ -99,19 +99,19 @@ _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
 A - VERSOS
-E -> A (adorno Asus4 -> A)
+E - A (adorno Asus4 - A)
 
 B - PREESTRIBILLO ("OOH...")
-C -> Em (repite)
+C - Em (repite)
 
 C - ESTRIBILLO
-D -> C -> Em (repite)
+D - C - Em (repite)
 
 D - "ALL THE LOVE GONE BAD"
-D -> C -> D -> C -> Em -> D -> C
+D - C - D - C - Em - D - C
 
 E - FINAL / SOLO
-Em -> D -> C (repite)
+Em - D - C (repite)
 
 ESTRUCTURA SEGUN EL TXT
 · Verso 1 (A)
@@ -123,4 +123,4 @@ ESTRUCTURA SEGUN EL TXT
 · "All the love gone bad" (D)
 · Final / Solo (E)
 
-Las flechas indican orden de acordes, no duracion de compases.
+Los guiones indican orden de acordes, no duracion de compases.
