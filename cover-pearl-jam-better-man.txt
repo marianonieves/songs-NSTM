@@ -83,3 +83,28 @@ D               A         G5
   Can't find a better man
 D               A         G5
   Can't find a better man
+
+
+RESUMEN DE ACORDES Y ESTRUCTURA
+
+INTRO
+| D/F# | E/G# | D/F# | E/G# | x4
+| F6/A | G/B | F6/A | G/B |
+
+A - VERSOS
+D/F# -> E7/G# (repite)
+Cierre: F6/A -> G/B -> F6/A -> G/B
+
+B - ESTRIBILLO / FINAL
+D -> A -> G5 (repite)
+Adornos del cierre: A -> A4 -> A / D -> D4 -> D
+
+INTERLUDIO
+D/F# -> E/G#
+
+ESTRUCTURA SEGUN EL TXT
+Intro -> Verso 1 (A) -> Estribillo (B) -> Interludio
+-> Verso 2 (A) -> Estribillo extendido (B)
+-> Final (B: "She loved him..." / "Can't find a better man")
+
+Las flechas indican orden de acordes, no duracion de compases.

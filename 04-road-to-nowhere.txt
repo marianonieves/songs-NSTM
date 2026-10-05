@@ -66,3 +66,15 @@ D
 Empty lands
 C          G 
 I feel so alone
+
+RESUMEN DE ACORDES Y ESTRUCTURA
+
+A - INTRO / VERSOS
+| D | Am |
+
+B - ESTRIBILLO (segun tu foto)
+| C | G | D | D |
+
+ESTRUCTURA
+Intro (A) -> Verso 1 (A) -> Estribillo (B)
+-> Verso 2 (A) -> Estribillo final (B)

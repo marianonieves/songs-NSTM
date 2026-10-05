@@ -77,3 +77,21 @@ I hate to lie
 Outro
 
 D  - C  - G - F - D
+
+
+RESUMEN DE ACORDES Y ESTRUCTURA
+
+A - INTRO / VERSOS / SOLO
+| D | D | C | G |
+
+B - "READ BETWEEN THE LINES"
+| F | G | D | D |
+Antes del solo, la ultima frase queda en F -> G en el TXT.
+
+C - FINAL CON RIFF (segun tu foto)
+| D | D | D | C G F | -> D
+El TXT solo detalla el cierre: D -> C -> G -> F -> D.
+
+ESTRUCTURA
+Intro (A) -> Verso 1 (A) -> B -> Verso 2 (A) -> B
+-> Solo (A) -> Versos finales (A) -> Final (C)
