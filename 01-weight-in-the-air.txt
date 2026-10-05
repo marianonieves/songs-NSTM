@@ -84,6 +84,7 @@ There's a weight
 F#    D#  E    B
 Tonight going back home
 
+_______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
 A - BASE (intro / versos / estribillos / solo)
@@ -91,5 +92,10 @@ A - BASE (intro / versos / estribillos / solo)
 Intro: A x2. Acentos en B donde indica la letra.
 
 ESTRUCTURA
-Intro -> Verso 1 -> Estribillo -> Verso 2 -> Estribillo
--> Solo -> Acento en B -> Estribillo final
+· Intro
+· Verso 1
+· Estribillo
+· Verso 2
+· Estribillo
+· Solo -> Acento en B
+· Estribillo final

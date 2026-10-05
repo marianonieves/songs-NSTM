@@ -85,6 +85,7 @@ D               A         G5
   Can't find a better man
 
 
+_______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
 INTRO
@@ -103,8 +104,12 @@ INTERLUDIO
 D/F# -> E/G#
 
 ESTRUCTURA SEGUN EL TXT
-Intro -> Verso 1 (A) -> Estribillo (B) -> Interludio
--> Verso 2 (A) -> Estribillo extendido (B)
--> Final (B: "She loved him..." / "Can't find a better man")
+· Intro
+· Verso 1 (A)
+· Estribillo (B)
+· Interludio
+· Verso 2 (A)
+· Estribillo extendido (B)
+· Final (B: "She loved him..." / "Can't find a better man")
 
 Las flechas indican orden de acordes, no duracion de compases.

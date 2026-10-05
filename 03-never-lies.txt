@@ -79,6 +79,7 @@ Outro
 D  - C  - G - F - D
 
 
+_______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
 A - INTRO / VERSOS / SOLO
@@ -93,5 +94,11 @@ C - FINAL CON RIFF (segun tu foto)
 El TXT solo detalla el cierre: D -> C -> G -> F -> D.
 
 ESTRUCTURA
-Intro (A) -> Verso 1 (A) -> B -> Verso 2 (A) -> B
--> Solo (A) -> Versos finales (A) -> Final (C)
+· Intro (A)
+· Verso 1 (A)
+· B
+· Verso 2 (A)
+· B
+· Solo (A)
+· Versos finales (A)
+· Final (C)

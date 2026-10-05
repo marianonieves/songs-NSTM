@@ -75,6 +75,7 @@ Sun falls down into the sea
 C    G     D
 Sun falls down
 
+_______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
 A - INTRO / VERSO 1
@@ -87,8 +88,10 @@ C - PUENTE ("LET THE STARS...")
 | Am | C | G | D |
 
 ESTRUCTURA
-Intro (A) -> Verso 1 (A) -> Estribillo (B)
--> Verso 2 -> Estribillo (B) -> Puente (C) -> Estribillo final (B)
-
-Variacion del verso 2 segun el TXT:
-G -> C -> Am -> G -> C -> D
+· Intro (A)
+· Verso 1 (A)
+· Estribillo (B)
+· Verso 2 -> Variacion del TXT: G -> C -> Am -> G -> C -> D
+· Estribillo (B)
+· Puente (C)
+· Estribillo final (B)

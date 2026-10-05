@@ -71,11 +71,16 @@ No eyes in the sky
 D                 A
 There's nothing
 
+_______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
 A - BASE (intro / versos / estribillos)
 | E | B | D | A |
 
 ESTRUCTURA
-Intro -> Verso 1 -> Estribillo -> Silencio ("There's nothing")
--> Verso 2 -> Estribillo final
+· Intro
+· Verso 1
+· Estribillo
+· Silencio ("There's nothing")
+· Verso 2
+· Estribillo final
