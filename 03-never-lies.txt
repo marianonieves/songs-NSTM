@@ -96,9 +96,9 @@ El TXT solo detalla el cierre: D -> C -> G -> F -> D.
 ESTRUCTURA
 · Intro (A)
 · Verso 1 (A)
-· B
+· Estribo (B)
 · Verso 2 (A)
-· B
+· Estribo (B)
 · Solo (A)
 · Versos finales (A)
 · Final (C)
