@@ -132,7 +132,9 @@
             id="password"
             name="password"
             type="password"
-            inputmode="numeric"
+            inputmode="text"
+            autocapitalize="none"
+            spellcheck="false"
             autocomplete="off"
             autofocus
             required
@@ -145,7 +147,7 @@
   </main>
 
   <script>
-    const ACCESS_CODE = "1256";
+    const ACCESS_CODE = "nstm";
     const SONGBOOK_PATH = "setlist-seven-7f3a.html";
     const form = document.querySelector("#login-form");
     const password = document.querySelector("#password");
@@ -154,7 +156,7 @@
     form.addEventListener("submit", (event) => {
       event.preventDefault();
 
-      if (password.value === ACCESS_CODE) {
+      if (password.value.toLowerCase() === ACCESS_CODE) {
         window.location.replace(SONGBOOK_PATH);
         return;
       }
