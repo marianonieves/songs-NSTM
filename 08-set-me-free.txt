@@ -97,18 +97,18 @@ But I'm still here
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO / VERSOS / INTERLUDIO
+[A] INTRO / VERSOS / INTERLUDIO
 D# - D - C# - C - B - F# - G#
 Intro: x2. Interludio: x1.
 
-B - ESTRIBILLO
+[B] ESTRIBILLO
 D# - A# - G# - D# (x4)
 
-C - PUENTE / RIFF
+[C] PUENTE / RIFF
 D# - F# agudo en 3ra cuerda, un toque - D# (x12)
 Bajada: D# - D - C# - C -> B (acentua)
 
-D - "OHHHHHH"
+[D] "OHHHHHH"
 D# - A# - G# - D# (x4)
 
 ESTRUCTURA

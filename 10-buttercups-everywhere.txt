@@ -92,25 +92,25 @@ D - A-B-C - G - F - D x2
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO
+[A] INTRO
 D - A-B-C - G - G-F - D (x4)
 
-B - VERSOS
+[B] VERSOS
 D - C - G - D (x6 por verso)
 
-C - RIFF ANTES DEL PRIMER ESTRIBILLO
+[C] RIFF ANTES DEL PRIMER ESTRIBILLO
 D - A-B-C - G - D (x2)
 
-D - ESTRIBILLOS 1 Y 2
+[D] ESTRIBILLOS 1 Y 2
 D - C - G - F - D (x4)
 Cierre: D - C - G - G
 "Buttercups everywhere": sin nuevo acorde indicado.
 
-E - RIFF / SOLO
+[E] RIFF / SOLO
 D - A-B-C - G - F - D
 Riffs: x2. Solo: x8.
 
-F - ESTRIBILLO FINAL
+[F] ESTRIBILLO FINAL
 D - C - G - F - D (x3)
 Cierre: D - C - G - G
 "Buttercups tonight": sin nuevo acorde indicado.

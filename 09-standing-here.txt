@@ -105,18 +105,18 @@ F  C G  D - Gm
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO / VERSOS
+[A] INTRO / VERSOS
 G - Gb - F - C - D# - Gm - C - Cm
 Intro: x1, con acentos en C - Cm.
 
-B - PREESTRIBILLO
+[B] PREESTRIBILLO
 Gm x2
 
-C - ESTRIBILLO / "OHHHH" / CHORUS BRIDGE
+[C] ESTRIBILLO / "OHHHH" / CHORUS BRIDGE
 F - C - G - D
 Cada estribillo: x2. "Ohhhhh / Uhhh": x2.
 
-D - OUTRO
+[D] OUTRO
 F - C - G - D -> Gm
 
 ESTRUCTURA

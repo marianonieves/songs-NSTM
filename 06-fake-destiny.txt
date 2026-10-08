@@ -84,21 +84,21 @@ Fake destiny in your eyes
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO / VERSOS / INTERLUDIO
+[A] INTRO / VERSOS / INTERLUDIO
 B - A - G - D - A
 Intro e interludio: x2.
 
-B - ESTRIBILLO
+[B] ESTRIBILLO
 Em - C - G - D
 Primer estribillo: D x2 en el cierre.
 
-C - PUENTE
+[C] PUENTE
 Entrada: aguanta en D.
 E - C - B - A#
 D - C - B - A#
 Cierre instrumental: D - C - B - A# (repite).
 
-D - ESTRIBILLO FINAL
+[D] ESTRIBILLO FINAL
 D - C - B - C (x4) -> D
 
 ESTRUCTURA

@@ -64,11 +64,11 @@ The one that you are
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - BASE (intro / versos / estribillos / solo)
+[A] BASE (intro / versos / estribillos / solo)
 | Dm | C | F | A# |
 | Dm | C | F | F |
 
-B - FINAL ("THE ONE THAT YOU ARE")
+[B] FINAL ("THE ONE THAT YOU ARE")
 Dm - C - F - A#
 Dm - C - F - F
 Dm - C - F - A# -> Dm

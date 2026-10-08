@@ -74,7 +74,7 @@ There's nothing
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - BASE (intro / versos / estribillos)
+[A] BASE (intro / versos / estribillos)
 | E | B | D | A |
 
 ESTRUCTURA

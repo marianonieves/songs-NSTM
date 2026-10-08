@@ -70,10 +70,10 @@ I feel so alone
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO / VERSOS
+[A] INTRO / VERSOS
 | D | Am |
 
-B - ESTRIBILLO (segun tu foto)
+[B] ESTRIBILLO (segun tu foto)
 | C | G | D | D |
 
 ESTRUCTURA

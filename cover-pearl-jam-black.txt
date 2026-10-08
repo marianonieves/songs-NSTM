@@ -98,19 +98,19 @@ E|--------------------------------|
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - VERSOS
+[A] VERSOS
 E - A (adorno Asus4 - A)
 
-B - PREESTRIBILLO ("OOH...")
+[B] PREESTRIBILLO ("OOH...")
 C - Em (repite)
 
-C - ESTRIBILLO
+[C] ESTRIBILLO
 D - C - Em (repite)
 
-D - "ALL THE LOVE GONE BAD"
+[D] "ALL THE LOVE GONE BAD"
 D - C - D - C - Em - D - C
 
-E - FINAL / SOLO
+[E] FINAL / SOLO
 Em - D - C (repite)
 
 ESTRUCTURA SEGUN EL TXT

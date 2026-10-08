@@ -87,7 +87,7 @@ Tonight going back home
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - BASE (intro / versos / estribillos / solo)
+[A] BASE (intro / versos / estribillos / solo)
 | F# | D# | E | B |
 Intro: A x2. Acentos en B donde indica la letra.
 

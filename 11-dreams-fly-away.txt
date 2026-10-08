@@ -60,12 +60,12 @@ F# - E - D x2
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - BASE (intro / versos / estribillos / interludio)
+[A] BASE (intro / versos / estribillos / interludio)
 E - D
 Intro e interludio: x2.
 Cada verso: x4. Cada estribillo: x5.
 
-B - OUTRO
+[B] OUTRO
 E - D (x2)
 F# - E - D (x2)
 

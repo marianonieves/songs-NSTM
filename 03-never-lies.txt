@@ -82,14 +82,14 @@ D  - C  - G - F - D
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO / VERSOS / SOLO
+[A] INTRO / VERSOS / SOLO
 | D | D | C | G |
 
-B - "READ BETWEEN THE LINES"
+[B] "READ BETWEEN THE LINES"
 | F | G | D | D |
 Antes del solo, la ultima frase queda en F -> G en el TXT.
 
-C - FINAL CON RIFF (segun tu foto)
+[C] FINAL CON RIFF (segun tu foto)
 | D | D | D | C G F | -> D
 El TXT solo detalla el cierre: D -> C -> G -> F -> D.
 

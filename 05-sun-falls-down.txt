@@ -78,13 +78,13 @@ Sun falls down
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
-A - INTRO / VERSO 1
+[A] INTRO / VERSO 1
 | G | C | Am | D |
 
-B - ESTRIBILLO (segun tu foto)
+[B] ESTRIBILLO (segun tu foto)
 | C | G D | C | G D |
 
-C - PUENTE ("LET THE STARS...")
+[C] PUENTE ("LET THE STARS...")
 | Am | C | G | D |
 
 ESTRUCTURA
