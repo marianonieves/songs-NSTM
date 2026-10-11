@@ -97,6 +97,11 @@ But I'm still here
 _______________________________________
 RESUMEN DE ACORDES Y ESTRUCTURA
 
+ESCALA DE REFERENCIA: Eb MAYOR (D#), segun el estribillo
+Eb - F - G - Ab - Bb - C - D - Eb
+Equivalencias con el TXT: Eb = D#, Ab = G#, Bb = A#.
+La intro y los versos usan acordes cromaticos y prestados: esta escala no cubre toda la cancion.
+
 [A] INTRO / VERSOS / INTERLUDIO
 D# - D - C# - C - B - F# - G#
 Intro: x2. Interludio: x1.
